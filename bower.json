@@ -1,0 +1,27 @@
+{
+  "name": "Boilerplate develop website",
+  "version": "1.0.0",
+  "authors": [
+    "isatrio <isatrio@linkaran.com>"
+  ],
+  "description": "HTML starter with grunt and bower included",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "boilerplate"
+  ],
+  "license": "GPLv2",
+  "homepage": "localhost",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
