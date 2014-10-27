@@ -2,19 +2,21 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         less: {
-            files: {
-                'assets/css/main.css': [
-                    'assets/less/main.less'
-                ]
-            },
-            options: {
-                compress: false,
-                sourceMap: false,
+            dev {
+                files: {
+                    'assets/css/main.css': [
+                        'assets/less/main.less'
+                    ]
+                },
+                options: {
+                    compress: false,
+                    sourceMap: false,
+                }
             }
         },
         watch: {
             css: {
-                files: 'main.less',
+                files: 'assets/less/main.less',
                 tasks: ['less'],
                 options: {
                     livereload: true
