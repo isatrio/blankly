@@ -2,7 +2,7 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         less: {
-            dev {
+            dev: {
                 files: {
                     'assets/css/main.css': [
                         'assets/less/main.less'
