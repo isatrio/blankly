@@ -1,30 +1,13 @@
+// Import base framework
 @import '../../bower_components/bootstrap/less/bootstrap.less';
 
-// Custom variable
-@color-menu: tomato;
-@color-hover-menu: darken(@color-menu, 20%);
-@background-menu: transparent;
-@background-hover-menu: transparent;
 
-.sitename {
-  display: block;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  width: 120px;
-  height: 40px;
-  background: url() no-repeat;
-}
+// Overrides bootstrap variables 
+@import 'variables';
 
-#header {}
-
-.main-menu {
-  ul { list-style: none; padding-left: 0;}
-  li { float: left;}
-  a { display: block; padding: 10px; color: @color-menu; background: @background-menu;}
-  li.current-menu-item a, a:hover { color: @color-hover-menu; background: @background-hover-menu;}
-}
-
-#main {}
-
-#footer {}
+// Blankly
+@import 'global';
+@import 'header';
+@import 'general';
+@import 'footer';
+@import 'responsive';

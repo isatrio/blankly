@@ -1,8 +1,8 @@
 # Blankly
 
-Blankly is a boilerplate for develop website. This package using Bower and Grunt. So, if you not familiar with it, just visit this link [Bower](http://bower.io/ "Bower package manager") and [Gruntjs](http://gruntjs.com/ "Grunt task runner")
+Blankly is a HTML boilerplate to create website. This package using Bower and Grunt. So, if you are not familiar with it, just visit this link [Bower](http://bower.io/ "Bower package manager") and [Gruntjs](http://gruntjs.com/ "Grunt task runner")
 
-## How to
+## Install
 
 To start using this boilerplate is just follow the command below.
 
