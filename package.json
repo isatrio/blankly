@@ -14,5 +14,19 @@
     "grunt-contrib-uglify": "^0.5.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-contrib-less": "^0.12.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isatrio/blankly.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "html",
+    "sass",
+    "foundation"
+  ],
+  "bugs": {
+    "url": "https://github.com/isatrio/blankly/issues"
+  },
+  "homepage": "https://github.com/isatrio/blankly"
 }
