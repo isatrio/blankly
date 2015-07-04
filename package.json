@@ -1,7 +1,7 @@
 {
   "name": "blankly",
-  "version": "1.0.1",
-  "description": "HTML template",
+  "version": "1.0.2",
+  "description": "Boilerplate for development HTML",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

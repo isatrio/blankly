@@ -1,0 +1,12 @@
+// Overrides bootstrap variables 
+@import 'variables';
+
+// Import base framework
+@import '../../bower_components/foundation/scss/foundation.scss';
+
+// Blankly
+@import 'global';
+@import 'header';
+@import 'general';
+@import 'footer';
+@import 'responsive';

@@ -1,6 +1,6 @@
 # Blankly
 
-## Version 1.0.1
+## Version 1.0.2
 
 Blankly is a HTML boilerplate to create website. This package using Bower and Grunt. So, if you are not familiar with it, just visit this link [Bower](http://bower.io/ "Bower package manager") and [Gruntjs](http://gruntjs.com/ "Grunt task runner")
 

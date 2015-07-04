@@ -1,23 +1,20 @@
 'use strict';
 module.exports = function(grunt) {
     grunt.initConfig({
-        less: {
-            dev: {
-                files: {
-                    'assets/css/main.css': [
-                        'assets/less/main.less'
-                    ]
-                },
+        sass: {
+            dist: {
                 options: {
-                    compress: false,
-                    sourceMap: false,
+                    outputStyle: 'compressed'
+                },
+                files: {
+                    'assets/css/main.css' : 'assets/scss/main.scss'
                 }
             }
         },
         watch: {
             css: {
-                files: 'assets/less/main.less',
-                tasks: ['less'],
+                files: 'assets/scss/*',
+                tasks: ['sass'],
                 options: {
                     livereload: true
                 }
@@ -38,9 +35,9 @@ module.exports = function(grunt) {
         }
     });
     
-    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.registerTask('default', ['less', 'uglify']);
+    grunt.registerTask('default', ['sass', 'uglify']);
     grunt.registerTask('dev', ['watch']);
 }
