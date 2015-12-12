@@ -1,3 +1,6 @@
-
 // Custom variable
 
+$background-menu: tomato;
+$color-menu: #fff;
+$background-hover-menu: darken($background-menu, 10%);
+$color-hover-menu: darken($color-menu, 10%);

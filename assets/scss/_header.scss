@@ -7,7 +7,7 @@
   white-space: nowrap;
   width: 120px;
   height: 40px;
-  background: url() no-repeat;
+  /*background: url() no-repeat;*/
 }
 
 #header {}
@@ -15,6 +15,6 @@
 .main-menu {
   ul { list-style: none; padding-left: 0;}
   li { float: left;}
-  a { display: block; padding: 10px; color: @color-menu; background: @background-menu;}
-  li.current-menu-item a, a:hover { color: @color-hover-menu; background: @background-hover-menu;}
+  a { display: block; padding: 10px; color: $color-menu; background: $background-menu;}
+  li.current-menu-item a, a:hover { color: $color-hover-menu; background: $background-hover-menu;}
 }
